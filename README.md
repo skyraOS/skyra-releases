@@ -4,7 +4,7 @@ Skyra runs agents under explicit OS-enforced boundaries and records their
 execution for replay. This repository is the official binary distribution
 endpoint. The development repository remains private.
 
-**Skyra 0.1.0 is available** for Apple Silicon Macs running macOS 14 or later.
+**Skyra 0.1.1 is available** for Apple Silicon Macs running macOS 14 or later.
 
 ```sh
 brew update
@@ -33,6 +33,6 @@ Homebrew installs Python 3.13. Optional desktop observation requires CuaDriver
 0.34.0 and macOS Accessibility and Screen Recording permissions. Skyra starts
 without desktop observation when the driver is absent.
 
-This initial release has passed local packaged-runtime and fake-provider
-read/write/replay checks. Independent clean-Mac GUI, real-provider and TCC
+Skyra 0.1.1 has passed relocated real Cua/backend startup and fake-provider
+read/write/replay checks, with application bundle integrity preserved. Independent clean-Mac GUI, real-provider and TCC
 acceptance have not been completed. See release notes for validation details.
